@@ -1,0 +1,20 @@
+# Private runtime state and generated machine-specific plugin files
+/hook-data/
+/runs/
+/plugin/
+/config.json
+*.log
+*.sqlite*
+*.db
+*.jsonl
+*.bak
+*.pending
+*.lock
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.zip

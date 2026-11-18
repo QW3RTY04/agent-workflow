@@ -1,0 +1,7 @@
+{
+  "activation": {"path":"hook/modules/activation.md","requires":[]},
+  "plan": {"path":"hook/modules/plan.md","requires":[]},
+  "progress": {"path":"hook/modules/progress.md","requires":[]},
+  "evidence": {"path":"hook/modules/evidence.md","requires":[]},
+  "escalation": {"path":"hook/modules/escalation.md","requires":[]}
+}

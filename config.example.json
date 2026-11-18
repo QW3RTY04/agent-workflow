@@ -1,0 +1,53 @@
+{
+  "routing": [
+    {
+      "role": "supervisor",
+      "name": "Plan work",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "steps": []
+    },
+    {
+      "role": "read_files",
+      "name": "Read files",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "steps": []
+    },
+    {
+      "role": "read_reports",
+      "name": "Read reports",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "steps": []
+    },
+    {
+      "role": "match_facts",
+      "name": "Match facts",
+      "model": "gpt-6-luna",
+      "effort": "low",
+      "steps": []
+    },
+    {
+      "role": "write_answers",
+      "name": "Write answers",
+      "model": "gpt-6-luna",
+      "effort": "medium",
+      "steps": []
+    },
+    {
+      "role": "check_answers",
+      "name": "Check answers",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "steps": []
+    },
+    {
+      "role": "solve_problem",
+      "name": "Solve problem",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "steps": []
+    }
+  ]
+}

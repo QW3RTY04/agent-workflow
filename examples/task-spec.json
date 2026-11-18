@@ -1,0 +1,49 @@
+{
+  "title": "Research and draft a report",
+  "nodes": [
+    {
+      "id": "read",
+      "label": "Read sources",
+      "output": "Verified notes",
+      "checks": [
+        "Sources attached"
+      ]
+    },
+    {
+      "id": "draft",
+      "label": "Draft report",
+      "output": "Draft"
+    },
+    {
+      "id": "review",
+      "label": "Review report",
+      "checks": [
+        "Claims match sources"
+      ]
+    },
+    {
+      "id": "approve",
+      "label": "Approve report",
+      "human_step": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "read",
+      "to": "draft"
+    },
+    {
+      "from": "draft",
+      "to": "review"
+    },
+    {
+      "from": "review",
+      "to": "draft",
+      "rework": true
+    },
+    {
+      "from": "review",
+      "to": "approve"
+    }
+  ]
+}
